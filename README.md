@@ -27,3 +27,4 @@
 - namespaces??(70)
 - symbol identical(same object)
 - demonstrate metadata usage
+- regex with split and re-seq, diff?

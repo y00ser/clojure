@@ -36,3 +36,6 @@
 - explain seq (empty/with elements(identical))
 - 3 partitions of complex types? usage with =?
 - maps keys/vals
+- into/vector-of/nth/get/vector as a function to access/rseq/assoc what does it do?/replace
+- vector is a stack, demonstrate: peek/pop/conj...double peek/subvec
+- slice a map into key/value pairs and print them

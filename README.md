@@ -39,3 +39,8 @@
 - into/vector-of/nth/get/vector as a function to access/rseq/assoc what does it do?/replace
 - vector is a stack, demonstrate: peek/pop/conj...double peek/subvec
 - slice a map into key/value pairs and print them
+- list/map/vector conj/cons
+- collection operations: conj/cons/peek/pop/first/last/next/nth
+- queue: clojure.lang.PersistentQueue/EMPTY, diff between pop & rest
+- set: create/retrieval(2)/contains?/some/sorted-set/intersection/union/difference(is A-B)
+- map: show how they functions of their own keys/keys/vals/into/apply hash-map/zipmap(zip it together)

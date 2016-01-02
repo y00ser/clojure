@@ -3,6 +3,7 @@
 ###Syntaxes
 
 - let me do some local(e call out to function)
+- do
 
 ###Java
 
@@ -43,4 +44,5 @@
 - collection operations: conj/cons/peek/pop/first/last/next/nth
 - queue: clojure.lang.PersistentQueue/EMPTY, diff between pop & rest
 - set: create/retrieval(2)/contains?/some/sorted-set/intersection/union/difference(is A-B)
-- map: show how they functions of their own keys/keys/vals/into/apply hash-map/zipmap(zip it together)
+- map: show how they functions of their own keys assoc/keys/vals/into/apply hash-map/zipmap(zip it together)/sorted-map/hash-map vs array-map
+- ex: unify collections and write function to return index

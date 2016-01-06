@@ -46,3 +46,17 @@
 - set: create/retrieval(2)/contains?/some/sorted-set/intersection/union/difference(is A-B)
 - map: show how they functions of their own keys assoc/keys/vals/into/apply hash-map/zipmap(zip it together)/sorted-map/hash-map vs array-map
 - ex: unify collections and write function to return index
+
+###Functional programming
+
+- create tree building functions {:value 1 :l nil :r nil}, also print tree
+- and?
+- understand and reproduce this 
+	```(def very-lazy (-> (iterate #(do (print \.) (inc %)) 1)
+								rest rest rest))```
+- demonstrate usage of lazy-seq, explain while lazy is useful
+- first vs last access when collection is big(use let?)
+- show usage of infinite sequences
+- usage of iterate/take/(map fn (range 10))/filter/reduce/drop-while/if-let/when-let
+- delay/force(also see macros), create linked list with it
+- implement quick sort taking elements lazily?								

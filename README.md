@@ -51,12 +51,8 @@
 
 - create tree building functions {:value 1 :l nil :r nil}, also print tree
 - and?
-- understand and reproduce this 
-	```(def very-lazy (-> (iterate #(do (print \.) (inc %)) 1)
-								rest rest rest))```
-- demonstrate usage of lazy-seq, explain while lazy is useful
+- demonstrate usage of lazy-seq(infinite sequence with take and drop), explain while lazy is useful, diff dorun/doall
 - first vs last access when collection is big(use let?)
-- show usage of infinite sequences
-- usage of iterate/take/(map fn (range 10))/filter/reduce/drop-while/if-let/when-let
+- usage of iterate(fibo)/take/(map fn (range 10))/filter/reduce/drop-while/take-while/if-let/when-let
 - delay/force(also see macros), create linked list with it
 - implement quick sort taking elements lazily?								
